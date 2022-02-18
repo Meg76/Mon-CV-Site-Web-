@@ -1,6 +1,7 @@
 /* GENERAL */
 body{
     font-family: 'Lato', sans-serif;
+    background-image: url('images/etoile.gif') repeat-x;
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
@@ -23,17 +24,35 @@ section .heading h2{
     text-transform: uppercase;
 }
 .red-divider{
-    width: 100px;
+    width: 400px;
     height: 2px;
     background: #3026d9;
     margin: 0 auto 20px;
 
 }
 .white-divider{
-    width: 100px;
+    width: 400px;
     height: 2px;
     background: #fff;
     margin: 0 auto 20px;
+}
+
+.button1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top:  20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+}
+.button1:hover{
+    background: white;
+    color: #303030;
+    text-decoration: none;
 }
 
 
@@ -79,24 +98,10 @@ section .heading h2{
 #about .heading h3{
     color: #000;
 }
-.button1{
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    border: 1px solid white;
-    display: inline-block;
-    margin-top:  20px;
-    padding: 18px 50px;
-    border-radius: 3px;
-    transition: all 0.3s ease-in 0s;
-}
-.button1:hover{
-    background: white;
-    color: #303030;
-    text-decoration: none;
-}
+
 
 /* SKILLS */
+
 #skills{
     background: #fff;
 }
@@ -441,39 +446,6 @@ section .heading h2{
 }
 
 
-/* RECOMMANDATIONS */
-/*
-#recommandations{
-    background: #fff;
-}
-#recommandations .heading h2{
-    color: #d82c2e;
-}
-.fas.fa-chevron-left, .fas.fa-chevron-right{
-    background-image: none;
-    color: #d82c2e;
-}
-.carousel-indicators{
-    bottom: 0px;
-}
-.carousel-indicators li{
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    border: 1px solid #d82c2e;
-}
-.carousel-indicators li.active{
-    background-color: #d82c2e;
-}
-#myCarousel .carousel-item{
-    padding: 40px 30px;
-}
-#myCarousel .carousel-item h3{
-    color: #d82c2e;
-    font-style: italic;
-}
-*/
-
 
 
 
@@ -621,6 +593,11 @@ section{
     font-style: italic;
 }
 
+.carousel-item img{
+    width: 950px;
+    height: 550px;
+}
+
 
 /*VERSION BUREAU DU CV*/
 
@@ -700,4 +677,41 @@ section{
 {
     color: blue;
     font-style: italic;
+}
+
+
+/*CONTACT*/
+
+#contact{
+    background: #0080ff;;
+}
+
+#contact .heading h2{
+    color: #fff;
+}
+
+#contact-form {
+    font-size: 20px;
+    color: #fff;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+}
+#contact-form input[type=submit] {
+    margin: 40px auto 0px;
+    display: block;
+}
+.comments {
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    height: 25px
+}
+#contact-form .thank-you {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
 }
