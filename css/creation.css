@@ -1,0 +1,190 @@
+/* MENU */
+.navbar {
+    background-color: #7f2ed2;
+    font-size: 12px;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-pills .nav-link{
+    color: #fff !important;
+    text-align: center;
+}
+.nav-pills .nav-link.active,  .nav-pills .nav-link:hover{
+    color: #303030 !important;
+    background-color: #fff !important;
+}
+.navbar-toggler{
+    color: #fff !important;
+    border-style: none;
+}
+
+
+/* PHOTOSHOP */
+#photoshop{
+    background: #7f2ed2;
+}
+#photoshop .heading h2{
+    color: #fff;
+}
+#photoshop img{
+    width: 100%;
+    height: 100%;
+}
+
+#photoshop .col-md-4{
+    margin-bottom: 20px;
+}
+
+
+/* PREMIERE */
+#premiere{
+    background: #7f2ed2;
+}
+#premiere .heading h2{
+    color: #fff;
+}
+
+#premiere .col-md-4{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* GENERAL */
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url('images/etoile.gif') repeat-x;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    padding: 45px 0px 80px 0;
+}
+section .heading{
+    text-align: center;
+    padding-bottom: 40px;
+}
+section .heading h2{
+    text-transform: uppercase;
+}
+
+.white-divider{
+    width: 400px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto 20px;
+}
+
+
+
+/*SECTIONS*/
+
+
+
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+*/
+
+.prez{
+    border-bottom: 2px dashed #ccc;
+}
+
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-flex p:first-child{
+    flex: 0 0 40%;
+}
+.contact-flex p:last-child{
+    flex: 0 0 60%;
+}
+
+*/
+
+
+/*SECTION INTERETS*/
+
+.interet{
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.interet img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #555;
+}
+
+
+
+
+/*VERSION BUREAU DU CV*/
+
+
+@media screen and (min-width: 980px){
+    section{
+        width: 80%;
+        box-shadow: 0px 0px 10px #bbb;
+    }
+    a:hover{
+        color: #fbc931;
+    }
+    header h1, header h2 {
+        width: 80%;
+    }
+    .prez, .contact{
+        flex: 0 0 45%;
+    }
+    .prez{
+        border-bottom: none;
+        border-right: 2px solid #ccc;
+        padding-right: 20px;
+        margin-left: auto;
+    }
+    .contact{
+        padding-left: 20px;
+        margin-right: auto;
+    }
+    .prez a{
+        border: 2px solid transparent;
+    }
+    .prez a:hover{
+        color: #fbc931;
+        background-color: #fff;
+        border: 2px solid #fbc931;
+        box-shadow: 0px 0px 20px #666;
+    }
+
+    .interet{
+        flex: 0 1 25%;
+    }
+}
+
+
+
+
