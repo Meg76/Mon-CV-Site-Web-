@@ -23,10 +23,18 @@
 
 /* PHOTOSHOP */
 #photoshop{
-    background: #7f2ed2;
+    background: #534ccc;
+    /*background: #534ccc;*/
+
 }
 #photoshop .heading h2{
     color: #fff;
+}
+#photoshop .title h3{
+    background: white;
+    border-radius: 5px;
+    margin: 5px 0px 0px 0px ;
+    text-align: center;
 }
 #photoshop img{
     width: 100%;
@@ -45,8 +53,33 @@
 #premiere .heading h2{
     color: #fff;
 }
+#premiere .title h3{
+    background: white;
+    border-radius: 5px;
+    margin: 5px 0px 0px 0px ;
+    text-align: center;
+}
 
 #premiere .col-md-4{
+    margin-bottom: 20px;
+}
+
+/* AFTER EFFECT */
+#after{
+    background: #050078;
+}
+#after .heading h2{
+    color: #fff;
+}
+
+#after .title h3{
+    background: white;
+    border-radius: 5px;
+    margin: 5px 0px 0px 0px ;
+    text-align: center;
+}
+
+#after .col-md-4{
     margin-bottom: 20px;
 }
 
@@ -184,7 +217,6 @@ section{
         flex: 0 1 25%;
     }
 }
-
 
 
 
