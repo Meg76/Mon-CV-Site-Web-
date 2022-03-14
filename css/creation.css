@@ -85,7 +85,49 @@
 
 
 
+/* PORTFOLIO */
+#site{
+    background: #834B83;
+}
+#site .heading h2{
+    color: #fff;
+}
+#site img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
+}
+#site img:hover{
+     filter: none;
+    -webkit-filter: none; 
+}
+#site .col-md-4{
+    margin-bottom: 20px;
+}
 
+
+/* PORTFOLIO */
+#animation{
+    background: lightpink;
+}
+#animation .heading h2{
+    color: #fff;
+}
+
+#animation img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
+}
+#animation img:hover{
+     filter: none;
+    -webkit-filter: none; 
+}
+#animation .col-md-4{
+    margin-bottom: 20px;
+}
 
 /* GENERAL */
 body{
@@ -217,6 +259,3 @@ section{
         flex: 0 1 25%;
     }
 }
-
-
-
